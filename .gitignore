@@ -1,0 +1,13 @@
+# Build artifacts
+/target/
+
+# Sensitive runtime data
+.env
+proxies.txt
+emails.txt
+output/
+logs/
+hars/
+
+# Temp files from atomic writes
+*.tmp
