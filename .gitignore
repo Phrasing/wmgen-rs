@@ -1,13 +1,24 @@
-# Build artifacts
 /target/
 
-# Sensitive runtime data
 .env
-proxies.txt
+.env.*
+!.env.example
+
 emails.txt
+proxies.txt
+accounts.csv
 output/
 logs/
 hars/
 
-# Temp files from atomic writes
+*.log
 *.tmp
+*.bak
+*.swp
+*~
+
+.DS_Store
+Thumbs.db
+
+.idea/
+.vscode/
